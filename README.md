@@ -10,13 +10,32 @@ The purpose of this project is to develop a monitoring system for a heating tank
 
 **4. Tank level is too low (tank less than three quarters full), any temperature**: frequency-modulated “warble” tone, flashing LED
 
+## Inputs & Outputs
+Given this information, the inputs and outputs should be as follows:
+
+### Inputs
+- **Potentiometer 1**: Tank temperature
+- **Potentiometer 2**: Tank level
+
+### Outputs
+- **LED**: Tank level indicator
+- **PWM Speaker**: Tone output
+
+## Flowcharts
+<p align="center">
+  <img src="Images/Flowchart.png" width="1000">
+</p>
+<p align="center">
+Figure 1: Flowchart diagram for the Mbed heating tank monitor.
+</p>
+
 ## Project Setup
 These are the components used to allow the project to run successfully.
 <p align="center">
   <img src="Images/Demo.png" width="1000">
 </p>
 <p align="center">
-Figure 3: Components added for the Mbed machine control system.
+Figure 2: Components added for the Mbed heating tank monitor.
 </p>
 
 - **p5**: LED used to indicate the tank level is too low
