@@ -21,7 +21,7 @@ Given this information, the inputs and outputs should be as follows:
 - **LED**: Tank level indicator
 - **PWM Speaker**: Tone output
 
-## Flowcharts
+## Flowchart
 <p align="center">
   <img src="Images/Flowchart.png" width="1000">
 </p>
